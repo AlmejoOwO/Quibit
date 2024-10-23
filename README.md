@@ -9,12 +9,12 @@ Características Principales
   
 - Búsqueda de productos: Los compradores tienen acceso a una base de datos con productos filtrables por tipo, precio, disponibilidad y ubicación.
 
--Sistema de mensajería: Los usuarios pueden comunicarse directamente a través de un sistema de mensajería integrado para facilitar la negociación.
+- Sistema de mensajería: Los usuarios pueden comunicarse directamente a través de un sistema de mensajería integrado para facilitar la negociación.
 
--Soporte de múltiples medios de pago: Se admiten diversas opciones de pago, garantizando la seguridad de las transacciones.
+- Soporte de múltiples medios de pago: Se admiten diversas opciones de pago, garantizando la seguridad de las transacciones.
 
   Tecnologías Utilizadas
   
  - Frontend: HTML, CSS, JavaScript y Bootstrap.
  - Backend: Node.js, php, MySql para la base de datos.
-Autenticación y Seguridad: JWT (JSON Web Tokens), cifrado de contraseñas.
+   Autenticación y Seguridad: JWT (JSON Web Tokens), cifrado de contraseñas.
