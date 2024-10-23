@@ -18,3 +18,4 @@ Características Principales
  - Frontend: HTML, CSS, JavaScript y Bootstrap.
  - Backend: Node.js, php, MySql para la base de datos.
    Autenticación y Seguridad: JWT (JSON Web Tokens), cifrado de contraseñas.
+[![imagen-2024-10-22-214317929.png](https://i.postimg.cc/J4HNQVFM/imagen-2024-10-22-214317929.png)](https://postimg.cc/ZCZvTgZM)
