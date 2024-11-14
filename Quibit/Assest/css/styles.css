@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    font-size: 20px;
+    font-family: Outfit ;
+}
+body{
+    background:linear-gradient(#A0D9D0, white) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-attachment:fixed ;
+    align-items: center;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A0D9D0,;
+    padding: 0% ;
+    box-shadow:  15px #0d0d0d;
+}
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover,
+.overlay a:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #000000; 
+}
+
+.header .nav-links a:hover{
+    color: #ffffff;
+}
+
+.menu {
+    display:none;
+}
+
+.header .btn button,
+.header .menu button{
+    margin-left: 0px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover,
+.header .menu button:hover{
+
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.header .menu button img{
+    width:50px ;
+    height: 45px;
+    color: #ffffff;
+}
+
+/**/@media screen and (max-width: 800px){
+    .nav-links, .btn {
+        display: none;
+    }
+    .menu {
+        display: inherit;
+    }
+}
+
+
+
+/*Nav Mobile*/
+
+.header a{
+    text-decoration: none;  
+    
+}
+
+.header .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(154, 201, 241, 0.95);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.header .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.header .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: none;
+}
+
+.header .overlay a:hover, 
+.header .overlay a:focus{
+    color: #ffffff;
+}
+
+.header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height:450px) {
+    .header .overlay a{
+        font-size: 20px;
+    }
+    .header .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/*Logo de quibit*/
+.logo  {
+    height: 70px;
+    transition: transform 0.3s;
+}
+
+.logo :hover {
+    transform: scale(1.2);
+}
+/*Lista de Opciones sing in, login ,carrito y inicio*/
+ul {
+    
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ li {
+    margin: 0 10px;
+    background-color:none;
+}
+
+.a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 130%;
+    transition: color 0.3s;
+}
+
+
+/*carrito de compras */
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg {
+    fill: #070707; 
+    width: 100% ;   
+    height: 32px;
+}
+/*Boton de busqueda del header */
+.busqueda{
+    justify-content: center;
+    padding: 0;
+    display: flex;
+}
+
+hr {    
+
+    height: 2px;  
+    background-color: #0095ff; 
+    width: 10% 0% 10% 0%; 
+   
+}
+
+
+
+.buscar{
+    box-shadow: 0 0 10% #070707;
+    display: flex;
+    align-items: end;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    max-width: 500p;
+    flex-grow: 1;
+    margin: 0 
+    
+}
+
+.lupa{
+    border: none;
+    height: 25px;
+    width: 25px;
+    background:none ;
+    color: none;
+    padding: 0%;
+}
+.filtrar{
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        max-width: 400px;
+        flex-grow: 1;
+        margin: 0 20px;   
+}
+/*Baner hojas y texto*/
+
+.baner{
+    display: block;
+    padding: 10%;
+    background-position: center;
+    position:center;
+    background-size:cover ;
+    background-image: url(img/foto.png) ;
+    width: 100% ;
+    max-height: 1200px;
+    text-decoration: none ;
+
+    
+}
+.baner h2{
+    color: #070707;
+    font-size: 3.5rem ;
+    text-decoration: none ;
+    background-color: none;
+    
+}
+
+/* boton de Ingreso*/
+.baner h3{
+    color: rgb(0, 0, 0) ;
+    font-size: 5rem; 
+    text-decoration: antiquewhite;
+}
+
+.baner a{
+    background-color: #B3E31C; 
+    border: none; 
+    color: rgb(8, 8, 8); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: none; 
+    border-radius: 10px; 
+    
+}
+.ingresar{
+    border: none;
+    background:none ;
+    color: none;
+}
+/*Productos y servicios*/
+.Productos{
+    margin-left:10% ;
+     margin-top: 10%;
+     color: rgb(0, 0, 0) ;
+     font-size: 40px; 
+     text-decoration: #f2e7dc;
+    text-align:center ;
+    
+ }
+ 
+.targeta{
+    flex-wrap:nowrap;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: #0056b3;
+}
+.card{
+    border-radius: 10px; ;
+    max-width:30em ;
+    flex-direction: row;
+    margin: 35px;
+    height: 50px;
+    
+ }
+.card img{
+    max-width: 135%;
+    margin: auto;
+    padding: 0.5em ;
+}
+
+.explorar{
+    flex-direction: row;
+align-items: top;
+justify-content: space-between;
+}
+
+ /*Video*/ 
+
+ .rectangulo {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28rem; 
+    margin: 10% auto; 
+    border: 3px solid #f2e7dc;
+    background-color: #f2e7dc;
+  }
+  
+  video {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  .texto {
+    text-align: center; 
+    font-size: 1.5rem; 
+  }
+  
+
+/*pie de pagina*/
+.footer {
+    background-color: #027373;
+    color: rgb(250, 250, 250);
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+       text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+       text-align: center;
+  
+    
+  }
+  
+  .footer-links  {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+    flex-direction: row;
+  
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; 
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+
+}    
+/*Login y sing up*/
+
+.principal{
+   display: flex;
+    height:40rem; ;
+    width: auto;
+    margin: 2%;
+}
+.login{
+    width: 50%;
+    height: auto;
+    background-color: #f2e7dc;
+    padding: 10%;
+}
+.sing{
+    width: 50%;
+    height: auto;
+    background-color: #f2e7dc;
+    padding: 10%;
+    padding: 10%;
+
+}
+
+.cartulina{
+    width: 50%;
+    height: auto;
+    background-color: #A0D9D0 
+}
+
+  
+.row {
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+.cartulina {
+    position: relative; 
+    z-index: 1;
+}
+
+.Div-contenedor {
+    display: flex;
+    width: 100%; 
+    max-width: 100%; 
+    position: relative;
+    z-index: 2; 
+    margin: 0 auto; 
+}
+
+
+
+/*Botones sing*/
+.botones {
+    margin:10% ;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center;
+  }
+  
+  .botones input {
+    flex:  100%; 
+    min-width: 150px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease;
+  }
+  
+  .botones input.doble {
+    flex: 1 1 calc(50% - 10px); 
+  }
+  
+  .botones input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .app-download { 
+    margin: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    min-height: 300px; /* Ajusta según tus necesidades */
+  }
+  
+  .app-download img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: auto;
+    z-index: -1;  }
+  
+    .app-download p {
+        background-color: #ffff;
+        padding: 2%;
+        border-radius: 20px;
+    }
+  
+    .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1; 
+  }
+  
+
+
+.primary{
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    width: 150px; 
+    height: 40px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; ;
+}
+.opcciones{
+    display: flex;
+    margin: 10%;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+h6 {
+    text-align: right;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+
+.titulo-container h1 {
+    margin: 0 20px;
+    font-size: 18px;
+    color: #888;
+}
+
+.eslogan {
+    padding: 10%;
+  padding-left:10% ;
+    margin-top: 30px;
+}
+
+.LOGOTIPO img {
+    width: 10rem;
+    height: auto;
+}
+
+.eslogan h2 {
+    font-size: 300%;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.titulo-container {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.titulo-container h1 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 10px;
+    background-color: #f2e7dc;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-container hr {
+    border: none;
+    border-top: 2px solid #FFA500; /* Color de la línea amarilla */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+
+
