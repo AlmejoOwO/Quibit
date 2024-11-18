@@ -1,0 +1,108 @@
+[
+    {
+      "ID_PRODUCTO": 501,
+      "Precio": 3000000.00,
+      "Nombre": "zanahoria",
+      "Descripcion": "Zanahoria organica",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 502,
+      "Precio": 2500.00,
+      "Nombre": "manzana",
+      "Descripcion": "Manzana roja fresca",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 503,
+      "Precio": 1500.00,
+      "Nombre": "platano",
+      "Descripcion": "Plátano maduro orgánico",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 504,
+      "Precio": 5000.00,
+      "Nombre": "aguacate",
+      "Descripcion": "Aguacate Hass de alta calidad",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 505,
+      "Precio": 8000.00,
+      "Nombre": "uvas",
+      "Descripcion": "Uvas verdes sin semilla",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 506,
+      "Precio": 4500.00,
+      "Nombre": "naranja",
+      "Descripcion": "Naranja dulce para jugo",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 507,
+      "Precio": 1200.00,
+      "Nombre": "cebolla",
+      "Descripcion": "Cebolla cabezona blanca",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 508,
+      "Precio": 2000.00,
+      "Nombre": "papa",
+      "Descripcion": "Papa criolla amarilla",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 509,
+      "Precio": 1800.00,
+      "Nombre": "tomate",
+      "Descripcion": "Tomate chonto fresco",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 510,
+      "Precio": 3000.00,
+      "Nombre": "lechuga",
+      "Descripcion": "Lechuga crespa verde",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 511,
+      "Precio": 2500.00,
+      "Nombre": "mango",
+      "Descripcion": "Mango tommy maduro",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 512,
+      "Precio": 2700.00,
+      "Nombre": "piña",
+      "Descripcion": "Piña golden madura",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 513,
+      "Precio": 500.00,
+      "Nombre": "limón",
+      "Descripcion": "Limón tahití fresco",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 514,
+      "Precio": 700.00,
+      "Nombre": "ajo",
+      "Descripcion": "Cabeza de ajo fresco",
+      "ID_Categoria": 11
+    },
+    {
+      "ID_PRODUCTO": 515,
+      "Precio": 4000.00,
+      "Nombre": "pimentón",
+      "Descripcion": "Pimentón rojo grande",
+      "ID_Categoria": 11
+    }
+  ]
+  
